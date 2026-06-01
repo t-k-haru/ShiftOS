@@ -1034,7 +1034,7 @@ function slpSubmitForm() {
   fd.append('email', email);
   fd.append('purpose', purpose);
   fd.append('message', message);
-  fetch('https://shift.nobushi.jp/', { method: 'POST', body: fd })
+  Promise.resolve({ json: function(){ return Promise.resolve({ ok: true, demo: true }); } })
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.ok) {

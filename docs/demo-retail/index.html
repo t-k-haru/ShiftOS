@@ -362,7 +362,7 @@ function renderTcLog(){var el=document.getElementById('tc-log');if(el)el.innerHT
 function toast(msg){var el=document.getElementById('toast');el.textContent=msg;el.style.display='block';setTimeout(()=>el.style.display='none',2500);}
 renderTcLog();
 </script>
-<script>function dcbBack(){ window.location.href='https://shift.nobushi.jp/'; }</script>
+<script>function dcbBack(){ location.href='../'; }</script>
 
 <!-- お問い合せモーダル -->
 <div id="slp-consult-modal" style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;display:none;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;background:rgba(0,0,0,.75);padding:20px;"><style>#slp-consult-modal input,#slp-consult-modal select,#slp-consult-modal textarea,#slp-consult-modal button,#slp-consult-modal label{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif!important;}</style>
@@ -444,7 +444,7 @@ function slpSubmitForm() {
   fd.append('email', email);
   fd.append('purpose', purpose);
   fd.append('message', message);
-  fetch('https://shift.nobushi.jp/', { method: 'POST', body: fd })
+  Promise.resolve({ json: function(){ return Promise.resolve({ ok: true, demo: true }); } })
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.ok) {
