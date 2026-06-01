@@ -21,7 +21,7 @@ define('SMTP_USER',     'info@shift.nobushi.jp');
 define('SMTP_PASS',     '__REDACTED_SMTP_PASSWORD__');
 define('FROM_EMAIL',    'info@shift.nobushi.jp');
 define('FROM_NAME',     'Shift OS');
-define('NOTIFY_EMAIL',  'tkharu25@icloud.com');
+define('NOTIFY_EMAIL',  '__REDACTED_NOTIFY_EMAIL__');
 
 // ── 署名検証 ──────────────────────────────────────────────────
 $payload    = file_get_contents('php://input');

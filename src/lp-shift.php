@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['slp_consult'])) {
             : ['ok' => false, 'err' => "data: {$data_resp}"];
     }
 
-    $to      = 'tkharu25@icloud.com';
+    $to      = '__REDACTED_NOTIFY_EMAIL__';
     $subject = '【Shift OS】お問い合せフォームからのお問い合わせ';
     $body    = "■ メールアドレス\n{$email}\n\n■ 目的\n{$purpose}\n\n■ メッセージ\n{$message}\n";
 
