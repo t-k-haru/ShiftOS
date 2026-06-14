@@ -392,7 +392,7 @@ html, body { margin: 0; padding: 0; background: #000; scroll-behavior: smooth; }
                     </div>
                     <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;">
                       <div style="width:100%;background:#2c5f2e;border-radius:3px 3px 0 0;height:52px;"></div>
-                      <div style="font-size:8px;font-weight:600;color:#2c5f2e;">5月</div>
+                      <div style="font-size:8px;font-weight:600;color:#2c5f2e;">8月</div>
                     </div>
                   </div>
                   <div style="font-size:9px;color:#6b6560;margin-top:4px;">¥486,000（先月比+6%）</div>
@@ -919,7 +919,7 @@ html, body { margin: 0; padding: 0; background: #000; scroll-behavior: smooth; }
     var base = new Date(2026, 4, 1);
     base.setMonth(base.getMonth() + sdemoCalOffset);
     var y = base.getFullYear(), m = base.getMonth();
-    var months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+    var months = ['1月','2月','3月','4月','8月','6月','7月','8月','9月','10月','11月','12月'];
     document.getElementById('sdemo-cal-month').textContent = y + '年' + months[m];
     var firstDow = new Date(y, m, 1).getDay(); // 0=Sun
     firstDow = firstDow === 0 ? 6 : firstDow - 1; // Mon=0
@@ -1029,7 +1029,7 @@ html, body { margin: 0; padding: 0; background: #000; scroll-behavior: smooth; }
   <p style="margin:0 auto 20px;max-width:460px;text-align:center;">シフト管理からタイムカード・勤怠集計まで、<br>あなたの業務専用にカスタム。<br><strong style="color:#fff;">¥11,000(先行利用価格)/月、全部込み。</strong></p>
   <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(24,95,165,.25);border:1px solid rgba(24,95,165,.6);border-radius:8px;padding:8px 14px;margin-bottom:20px;flex-wrap:wrap;">
     <span style="background:#185FA5;color:#fff;font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;letter-spacing:.5px;white-space:nowrap;">先行利用プログラム</span>
-    <span style="font-size:12px;color:rgba(255,255,255,.75);">5月末まで・定員達し次第終了。今申し込むと<strong style="color:#fff;">最低3年間¥11,000保証。</strong></span>
+    <span style="font-size:12px;color:rgba(255,255,255,.75);">8月末まで・定員達し次第終了。今申し込むと<strong style="color:#fff;">最低3年間¥11,000保証。</strong></span>
   </div>
   <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;justify-content:center;">
     <button onclick="slpOpenConsult()" class="slp-btn-p" style="border:none;cursor:pointer;">無料試用</button>
@@ -1118,7 +1118,7 @@ html, body { margin: 0; padding: 0; background: #000; scroll-behavior: smooth; }
     <div style="border:1px solid rgba(24,95,165,.45);border-radius:8px;padding:12px 14px;margin-bottom:20px;background:rgba(24,95,165,.15);">
       <div style="display:flex;align-items:center;gap:6px;margin-bottom:7px;flex-wrap:wrap;">
         <span style="background:#185FA5;color:#fff;font-size:10px;font-weight:700;padding:2px 9px;border-radius:999px;letter-spacing:.4px;white-space:nowrap;">先行利用プログラム</span>
-        <span style="color:#5b9bd5;font-size:11px;font-weight:600;white-space:nowrap;">5月末まで・定員達し次第終了</span>
+        <span style="color:#5b9bd5;font-size:11px;font-weight:600;white-space:nowrap;">8月末まで・定員達し次第終了</span>
       </div>
       <p style="color:#185FA5 !important;font-size:13px;font-weight:700;margin:0 0 2px;line-height:1.5;">今申し込むと <span style="font-size:15px;color:#4a9ede !important;">最低3年間 ¥11,000/月</span> を価格保証</p>
       <p style="color:rgba(90,155,213,.75) !important;font-size:11px;margin:0;">将来の値上げ対象外。申し込みから3年間、料金は変わりません。</p>
