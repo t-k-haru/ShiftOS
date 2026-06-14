@@ -1149,39 +1149,6 @@ html, body { margin: 0; padding: 0; background: #000; scroll-behavior: smooth; }
   </p>
 </section>
 
-<section id="rep">
-  <h2>Shift OS 代表</h2>
-  <div style="display:flex;align-items:flex-start;gap:20px;">
-    <picture>
-      <source srcset="/icon.webp" type="image/webp">
-      <img
-        src="/icon.png"
-        alt="プロフィール"
-        width="144" height="144"
-        style="width:72px;height:72px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid rgba(255,255,255,.15);"
-      >
-    </picture>
-    <div>
-      <p style="color:#fff !important;font-size:15px;font-weight:700;margin:0 0 6px;">Haru Takayanagi</p>
-      <p style="font-size:13px;margin:0 0 14px;line-height:1.7;">
-        東京都市大学在学。TeamLab Inc.や複数のIT企業でクリエイティブ・システム開発・業務効率化を担当。
-      </p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;">
-        <a href="https://www.instagram.com/tk.haru" target="_blank" rel="noopener noreferrer"
-          style="display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.6) !important;font-size:13px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:1px;">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          Instagram
-        </a>
-        <a href="https://www.linkedin.com/in/tkharu/en" target="_blank" rel="noopener noreferrer"
-          style="display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.6) !important;font-size:13px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:1px;">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          LinkedIn
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section>
   <h2>よくあるご質問</h2>
   <div class="slp-faq-item"><p class="slp-faq-q">どんな業種でも使えますか？</p><p class="slp-faq-a">はい。飲食・小売・美容・介護・事務など、様々な業種に対応いたします。</p></div>
