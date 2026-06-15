@@ -1,6 +1,6 @@
 # Shift OS
 
-Custom shift-management, time-clock and attendance system. Landing page + five industry demos, archived as a portfolio (formerly `shift.nobushi.jp`).
+Custom shift-management, time-clock and attendance system. Landing page + five industry demos, archived as a portfolio.
 
 **Live demo:** https://t-k-haru.github.io/ShiftOS/
 
