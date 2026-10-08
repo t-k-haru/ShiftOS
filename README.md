@@ -14,5 +14,4 @@ HTML / CSS / vanilla JS / Chart.js · PHP · Stripe Checkout & Webhook · PHPMai
 ```
 docs/      static site served by GitHub Pages (LP + demos)
 src/       original source (PHP backend, demos, Stripe webhook); secrets redacted
-backup/    full archive of the old site (so the server can be decommissioned)
 ```
